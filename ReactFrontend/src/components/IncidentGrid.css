@@ -1,0 +1,198 @@
+.incident-grid-container {
+  width: 100%;
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+}
+
+.incident-grid-table {
+  width: 100%;
+  border-collapse: collapse;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  overflow: hidden;
+  background: white;
+}
+
+.incident-grid-header {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  font-weight: 600;
+  padding: 16px 12px;
+  text-align: left;
+  border-bottom: 2px solid #5a67d8;
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+.incident-grid-row {
+  transition: all 0.2s ease;
+  border-bottom: 1px solid #e2e8f0;
+}
+
+.incident-grid-row:nth-child(even) {
+  background-color: #f8fafc;
+}
+
+.incident-grid-row:hover {
+  background-color: #e2e8f0;
+  transform: translateY(-1px);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.incident-grid-cell {
+  padding: 12px;
+  font-size: 14px;
+  color: #2d3748;
+  vertical-align: middle;
+  border-right: 1px solid #e2e8f0;
+}
+
+.incident-grid-cell:last-child {
+  border-right: none;
+}
+
+/* Update Status Button */
+.update-status-btn {
+  background: #007bff;
+  color: white;
+  border: none;
+  padding: 6px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: all 0.2s ease;
+  min-width: 40px;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.update-status-btn:hover:not(:disabled) {
+  background: #0056b3;
+  transform: scale(1.05);
+}
+
+.update-status-btn:disabled {
+  background: #6c757d;
+  cursor: not-allowed;
+  opacity: 0.6;
+}
+
+.update-status-btn.updating {
+  background: #ffc107;
+  color: #212529;
+}
+
+.incident-grid-row:last-child .incident-grid-cell {
+  border-bottom: none;
+}
+
+/* Loading state */
+.loading-state {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 60px 20px;
+  color: #718096;
+}
+
+.loading-spinner {
+  width: 40px;
+  height: 40px;
+  border: 4px solid #e2e8f0;
+  border-top: 4px solid #667eea;
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+  margin-bottom: 16px;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+/* Error state */
+.error-state {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 60px 20px;
+  color: #e53e3e;
+  text-align: center;
+}
+
+.error-message {
+  font-size: 16px;
+  margin-bottom: 16px;
+  font-weight: 500;
+}
+
+.retry-button {
+  background: #667eea;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 6px;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.retry-button:hover {
+  background: #5a67d8;
+}
+
+/* Empty state */
+.empty-state {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 60px 20px;
+  color: #718096;
+  font-size: 16px;
+  text-align: center;
+}
+
+/* Responsive design */
+@media (max-width: 1200px) {
+  .incident-grid-container {
+    padding: 15px;
+    overflow-x: auto;
+  }
+  
+  .incident-grid-table {
+    min-width: 1000px;
+  }
+}
+
+@media (max-width: 768px) {
+  .incident-grid-container {
+    padding: 10px;
+  }
+  
+  .incident-grid-table {
+    min-width: 800px;
+  }
+  
+  .incident-grid-header,
+  .incident-grid-cell {
+    padding: 8px 6px;
+    font-size: 12px;
+  }
+  
+  .loading-state,
+  .error-state,
+  .empty-state {
+    padding: 40px 20px;
+  }
+}

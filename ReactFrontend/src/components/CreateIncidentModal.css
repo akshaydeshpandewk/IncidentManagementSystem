@@ -1,0 +1,232 @@
+/* Sidebar layout instead of modal overlay */
+.create-incident-modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 400px;
+  height: 100vh;
+  background: white;
+  box-shadow: 2px 0 10px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+  transform: translateX(-100%);
+  transition: transform 0.3s ease;
+  overflow-y: auto;
+  border-right: 1px solid #e5e7eb;
+}
+
+.create-incident-modal.open {
+  transform: translateX(0);
+}
+
+/* Remove modal overlay styles */
+.modal-overlay {
+  display: none;
+}
+
+.modal-content {
+  height: 100%;
+  max-width: none;
+  border-radius: 0;
+  margin: 0;
+  padding: 0;
+  box-shadow: none;
+}
+
+.modal-header {
+  padding: 1.5rem;
+  border-bottom: 1px solid #e5e7eb;
+  background: #f8f9fa;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+.modal-header h2 {
+  margin: 0;
+  font-size: 1.25rem;
+  color: #374151;
+  font-weight: 600;
+}
+
+.modal-close-button {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+  color: #6b7280;
+  padding: 0.5rem;
+  border-radius: 0.25rem;
+  transition: all 0.2s ease;
+}
+
+.modal-close-button:hover:not(:disabled) {
+  background-color: #f3f4f6;
+  color: #374151;
+}
+
+.modal-close-button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.create-incident-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 1.5rem;
+  height: calc(100vh - 140px); /* Account for header and footer */
+  overflow-y: auto;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.form-group label {
+  font-weight: 600;
+  color: #374151;
+  font-size: 0.875rem;
+}
+
+.form-group input,
+.form-group textarea,
+.form-group select {
+  padding: 0.75rem;
+  border: 1px solid #d1d5db;
+  border-radius: 0.375rem;
+  font-size: 0.875rem;
+  transition: all 0.2s ease;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.form-group input:focus,
+.form-group textarea:focus,
+.form-group select:focus {
+  outline: none;
+  border-color: #3b82f6;
+  box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.1);
+}
+
+.form-group input:disabled,
+.form-group textarea:disabled,
+.form-group select:disabled {
+  background-color: #f9fafb;
+  color: #6b7280;
+  cursor: not-allowed;
+}
+
+.form-row {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.form-group textarea {
+  resize: vertical;
+  min-height: 100px;
+}
+
+.selected-files {
+  margin-top: 0.5rem;
+  padding: 0.75rem;
+  background-color: #f3f4f6;
+  border-radius: 0.375rem;
+  border: 1px solid #e5e7eb;
+}
+
+.selected-files p {
+  margin: 0 0 0.5rem 0;
+  font-weight: 600;
+  color: #374151;
+  font-size: 0.875rem;
+}
+
+.selected-files ul {
+  margin: 0;
+  padding-left: 1.25rem;
+  list-style-type: disc;
+}
+
+.selected-files li {
+  font-size: 0.875rem;
+  color: #6b7280;
+  margin-bottom: 0.25rem;
+}
+
+.form-actions {
+  position: sticky;
+  bottom: 0;
+  background: white;
+  padding: 1.5rem;
+  border-top: 1px solid #e5e7eb;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  margin-top: auto;
+}
+
+.cancel-button,
+.create-button {
+  padding: 0.75rem 1.5rem;
+  border-radius: 0.375rem;
+  font-size: 0.875rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  width: 100%;
+  text-align: center;
+}
+
+.cancel-button {
+  background-color: #f9fafb;
+  color: #374151;
+  border: 1px solid #d1d5db;
+}
+
+.cancel-button:hover:not(:disabled) {
+  background-color: #f3f4f6;
+  border-color: #9ca3af;
+}
+
+.cancel-button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.create-button {
+  background-color: #3b82f6;
+  color: white;
+  border: none;
+  min-width: 140px;
+}
+
+.create-button:hover:not(:disabled) {
+  background-color: #2563eb;
+}
+
+.create-button:disabled {
+  background-color: #9ca3af;
+  cursor: not-allowed;
+}
+
+.create-button:focus {
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.2);
+}
+
+/* Responsive adjustments for smaller screens */
+@media (max-width: 768px) {
+  .create-incident-modal {
+    width: 100vw;
+  }
+  
+  .app.sidebar-open {
+    margin-left: 0;
+  }
+}

@@ -1,0 +1,145 @@
+.certificate-helper {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.8);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+  padding: 20px;
+}
+
+.certificate-helper-content {
+  background: white;
+  border-radius: 12px;
+  padding: 30px;
+  max-width: 500px;
+  width: 100%;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
+  text-align: center;
+}
+
+.certificate-helper h3 {
+  color: #dc3545;
+  margin: 0 0 15px 0;
+  font-size: 1.5rem;
+}
+
+.certificate-helper p {
+  color: #495057;
+  margin-bottom: 20px;
+  line-height: 1.5;
+}
+
+.certificate-steps {
+  text-align: left;
+  margin: 20px 0;
+  padding: 15px;
+  background: #f8f9fa;
+  border-radius: 8px;
+}
+
+.certificate-steps h4 {
+  color: #495057;
+  margin: 0 0 10px 0;
+  font-size: 1rem;
+}
+
+.certificate-steps ol {
+  margin: 0;
+  padding-left: 20px;
+}
+
+.certificate-steps li {
+  margin-bottom: 8px;
+  color: #6c757d;
+}
+
+.api-link-button {
+  background: #007bff;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+  text-decoration: underline;
+  margin-left: 5px;
+}
+
+.api-link-button:hover {
+  background: #0056b3;
+}
+
+.certificate-actions {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  margin: 25px 0;
+}
+
+.retry-button {
+  background: #28a745;
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 500;
+  transition: background-color 0.2s ease;
+}
+
+.retry-button:hover {
+  background: #218838;
+}
+
+.demo-button {
+  background: #6c757d;
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 500;
+  transition: background-color 0.2s ease;
+}
+
+.demo-button:hover {
+  background: #545b62;
+}
+
+.certificate-note {
+  margin-top: 20px;
+  padding: 15px;
+  background: #e7f3ff;
+  border-left: 4px solid #007bff;
+  border-radius: 4px;
+  text-align: left;
+}
+
+.certificate-note p {
+  margin: 0;
+  font-size: 14px;
+  color: #495057;
+}
+
+@media (max-width: 600px) {
+  .certificate-helper-content {
+    padding: 20px;
+    margin: 10px;
+  }
+  
+  .certificate-actions {
+    flex-direction: column;
+  }
+  
+  .retry-button,
+  .demo-button {
+    width: 100%;
+  }
+}

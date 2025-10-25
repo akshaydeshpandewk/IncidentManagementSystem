@@ -1,0 +1,314 @@
+#root {
+  max-width: none;
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
+}
+
+.app {
+  width: 100%;
+  min-height: 100vh;
+  background: #f8f9fa;
+  display: flex;
+  flex-direction: column;
+  transition: margin-left 0.3s ease;
+}
+
+.app.sidebar-open {
+  margin-left: 400px;
+}
+
+.app-content {
+  flex: 1;
+  padding: 0 2rem 2rem 2rem;
+  max-width: 1280px;
+  margin: 0 auto;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.app-header {
+  text-align: center;
+  padding: 2rem 0;
+  background: white;
+  margin-bottom: 2rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.app-header h1 {
+  color: #495057;
+  margin: 0 0 0.5rem 0;
+  font-size: 2.5rem;
+  font-weight: 600;
+}
+
+.app-header p {
+  color: #6c757d;
+  margin: 0 0 1.5rem 0;
+  font-size: 1.1rem;
+}
+
+.header-actions {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.demo-toggle {
+  background: #6c757d;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 6px;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  min-width: 140px;
+}
+
+.demo-toggle:hover {
+  background: #545b62;
+}
+
+.demo-toggle.active {
+  background: #28a745;
+}
+
+.demo-toggle.active:hover {
+  background: #218838;
+}
+
+.refresh-button {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 6px;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  min-width: 100px;
+}
+
+.refresh-button:hover:not(:disabled) {
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(102, 126, 234, 0.4);
+}
+
+.refresh-button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.create-button {
+  background: linear-gradient(135deg, #28a745 0%, #20c997 100%);
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 6px;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  min-width: 100px;
+  max-width: 150px;
+}
+
+.create-button:hover:not(:disabled) {
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(40, 167, 69, 0.4);
+}
+
+.create-button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.demo-toggle {
+  background: #f8f9fa;
+  color: #495057;
+  border: 2px solid #dee2e6;
+  padding: 8px 16px;
+  border-radius: 6px;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.demo-toggle:hover {
+  background: #e9ecef;
+  transform: translateY(-1px);
+}
+
+.demo-toggle.active {
+  background: linear-gradient(135deg, #28a745 0%, #20c997 100%);
+  color: white;
+  border-color: #28a745;
+}
+
+.demo-toggle.active:hover {
+  background: linear-gradient(135deg, #218838 0%, #1abc9c 100%);
+}
+
+.incident-count {
+  color: #6c757d;
+  font-size: 14px;
+  font-weight: 500;
+  padding: 8px 12px;
+  background: #f8f9fa;
+  border-radius: 4px;
+  border: 1px solid #e9ecef;
+}
+
+/* Backend Status Styles */
+.backend-status {
+  background: #fff3cd;
+  border: 1px solid #ffeaa7;
+  border-radius: 8px;
+  margin: 1rem 2rem;
+  padding: 16px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.status-content {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.status-icon {
+  font-size: 24px;
+  flex-shrink: 0;
+}
+
+.status-text {
+  flex: 1;
+}
+
+.status-text strong {
+  color: #856404;
+  font-size: 16px;
+  display: block;
+  margin-bottom: 4px;
+}
+
+.status-text p {
+  color: #6c757d;
+  margin: 0;
+  font-size: 14px;
+}
+
+.status-actions {
+  flex-shrink: 0;
+}
+
+.reconnect-btn {
+  background: #ffc107;
+  color: #212529;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 500;
+  transition: background-color 0.2s ease;
+}
+
+.reconnect-btn:hover {
+  background: #e0a800;
+}
+
+.backend-instructions {
+  margin-top: 12px;
+  border-top: 1px solid #ffeaa7;
+  padding-top: 12px;
+}
+
+.backend-instructions details {
+  cursor: pointer;
+}
+
+.backend-instructions summary {
+  color: #856404;
+  font-weight: 500;
+  font-size: 14px;
+  outline: none;
+}
+
+.backend-instructions summary:hover {
+  color: #533f03;
+}
+
+.instructions-content {
+  margin-top: 8px;
+  padding-left: 16px;
+}
+
+.instructions-content p {
+  margin: 8px 0;
+  color: #6c757d;
+  font-size: 14px;
+}
+
+.instructions-content ul {
+  margin: 8px 0;
+  padding-left: 20px;
+}
+
+.instructions-content li {
+  color: #6c757d;
+  font-size: 14px;
+  margin: 4px 0;
+}
+
+.instructions-content code {
+  background: #f8f9fa;
+  padding: 2px 6px;
+  border-radius: 4px;
+  font-family: 'Courier New', monospace;
+  font-size: 13px;
+  color: #e83e8c;
+}
+
+.instructions-content pre {
+  background: #f8f9fa;
+  padding: 12px;
+  border-radius: 4px;
+  border: 1px solid #e9ecef;
+  margin: 8px 0;
+  overflow-x: auto;
+}
+
+.instructions-content pre code {
+  background: none;
+  padding: 0;
+  color: #495057;
+}
+
+main {
+  padding: 0 2rem;
+}
+
+@media (max-width: 768px) {
+  #root {
+    padding: 1rem;
+  }
+  
+  .app-header {
+    padding: 1rem 0;
+  }
+  
+  .app-header h1 {
+    font-size: 2rem;
+  }
+  
+  main {
+    padding: 0 1rem;
+  }
+}
