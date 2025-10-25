@@ -1,0 +1,184 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Project\\SampleProj\\Zywave\\IncidentManagementSystemAPI\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{800AC2E5-B99F-4103-BEDA-B37A18C30C2B}|IncidentManagementSystemAPI\\IncidentManagementSystemAPI.csproj|c:\\project\\sampleproj\\zywave\\incidentmanagementsystemapi\\incidentmanagementsystemapi\\controllers\\incidentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{800AC2E5-B99F-4103-BEDA-B37A18C30C2B}|IncidentManagementSystemAPI\\IncidentManagementSystemAPI.csproj|solutionrelative:incidentmanagementsystemapi\\controllers\\incidentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{800AC2E5-B99F-4103-BEDA-B37A18C30C2B}|IncidentManagementSystemAPI\\IncidentManagementSystemAPI.csproj|c:\\project\\sampleproj\\zywave\\incidentmanagementsystemapi\\incidentmanagementsystemapi\\dto\\incidentcreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{800AC2E5-B99F-4103-BEDA-B37A18C30C2B}|IncidentManagementSystemAPI\\IncidentManagementSystemAPI.csproj|solutionrelative:incidentmanagementsystemapi\\dto\\incidentcreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{800AC2E5-B99F-4103-BEDA-B37A18C30C2B}|IncidentManagementSystemAPI\\IncidentManagementSystemAPI.csproj|c:\\project\\sampleproj\\zywave\\incidentmanagementsystemapi\\incidentmanagementsystemapi\\services\\incidentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{800AC2E5-B99F-4103-BEDA-B37A18C30C2B}|IncidentManagementSystemAPI\\IncidentManagementSystemAPI.csproj|solutionrelative:incidentmanagementsystemapi\\services\\incidentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{800AC2E5-B99F-4103-BEDA-B37A18C30C2B}|IncidentManagementSystemAPI\\IncidentManagementSystemAPI.csproj|c:\\project\\sampleproj\\zywave\\incidentmanagementsystemapi\\incidentmanagementsystemapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{800AC2E5-B99F-4103-BEDA-B37A18C30C2B}|IncidentManagementSystemAPI\\IncidentManagementSystemAPI.csproj|solutionrelative:incidentmanagementsystemapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{800AC2E5-B99F-4103-BEDA-B37A18C30C2B}|IncidentManagementSystemAPI\\IncidentManagementSystemAPI.csproj|c:\\project\\sampleproj\\zywave\\incidentmanagementsystemapi\\incidentmanagementsystemapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{800AC2E5-B99F-4103-BEDA-B37A18C30C2B}|IncidentManagementSystemAPI\\IncidentManagementSystemAPI.csproj|solutionrelative:incidentmanagementsystemapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{800AC2E5-B99F-4103-BEDA-B37A18C30C2B}|IncidentManagementSystemAPI\\IncidentManagementSystemAPI.csproj|c:\\project\\sampleproj\\zywave\\incidentmanagementsystemapi\\incidentmanagementsystemapi\\dto\\incidentwithfilesdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{800AC2E5-B99F-4103-BEDA-B37A18C30C2B}|IncidentManagementSystemAPI\\IncidentManagementSystemAPI.csproj|solutionrelative:incidentmanagementsystemapi\\dto\\incidentwithfilesdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{800AC2E5-B99F-4103-BEDA-B37A18C30C2B}|IncidentManagementSystemAPI\\IncidentManagementSystemAPI.csproj|c:\\project\\sampleproj\\zywave\\incidentmanagementsystemapi\\incidentmanagementsystemapi\\dataaccesslayer\\incidentdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{800AC2E5-B99F-4103-BEDA-B37A18C30C2B}|IncidentManagementSystemAPI\\IncidentManagementSystemAPI.csproj|solutionrelative:incidentmanagementsystemapi\\dataaccesslayer\\incidentdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{800AC2E5-B99F-4103-BEDA-B37A18C30C2B}|IncidentManagementSystemAPI\\IncidentManagementSystemAPI.csproj|c:\\project\\sampleproj\\zywave\\incidentmanagementsystemapi\\incidentmanagementsystemapi\\services\\fileservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{800AC2E5-B99F-4103-BEDA-B37A18C30C2B}|IncidentManagementSystemAPI\\IncidentManagementSystemAPI.csproj|solutionrelative:incidentmanagementsystemapi\\services\\fileservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Project\\SampleProj\\Zywave\\IncidentManagementSystemAPI\\IncidentManagementSystemAPI\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "IncidentManagementSystemAPI\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Project\\SampleProj\\Zywave\\IncidentManagementSystemAPI\\IncidentManagementSystemAPI\\Properties\\launchSettings.json",
+              "RelativeToolTip": "IncidentManagementSystemAPI\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAA8AAAAAAAAAAAASwBUAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-10-25T06:35:47.407Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "IncidentsController.cs",
+              "DocumentMoniker": "C:\\Project\\SampleProj\\Zywave\\IncidentManagementSystemAPI\\IncidentManagementSystemAPI\\Controllers\\IncidentsController.cs",
+              "RelativeDocumentMoniker": "IncidentManagementSystemAPI\\Controllers\\IncidentsController.cs",
+              "ToolTip": "C:\\Project\\SampleProj\\Zywave\\IncidentManagementSystemAPI\\IncidentManagementSystemAPI\\Controllers\\IncidentsController.cs",
+              "RelativeToolTip": "IncidentManagementSystemAPI\\Controllers\\IncidentsController.cs",
+              "ViewState": "AgIAAEIAAAAAAAAAAAAkwFgAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-24T17:42:12.661Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IncidentDbContext.cs",
+              "DocumentMoniker": "C:\\Project\\SampleProj\\Zywave\\IncidentManagementSystemAPI\\IncidentManagementSystemAPI\\DataAccessLayer\\IncidentDbContext.cs",
+              "RelativeDocumentMoniker": "IncidentManagementSystemAPI\\DataAccessLayer\\IncidentDbContext.cs",
+              "ToolTip": "C:\\Project\\SampleProj\\Zywave\\IncidentManagementSystemAPI\\IncidentManagementSystemAPI\\DataAccessLayer\\IncidentDbContext.cs",
+              "RelativeToolTip": "IncidentManagementSystemAPI\\DataAccessLayer\\IncidentDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-24T17:42:08.35Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IncidentWithFilesDto.cs",
+              "DocumentMoniker": "C:\\Project\\SampleProj\\Zywave\\IncidentManagementSystemAPI\\IncidentManagementSystemAPI\\Dto\\IncidentWithFilesDto.cs",
+              "RelativeDocumentMoniker": "IncidentManagementSystemAPI\\Dto\\IncidentWithFilesDto.cs",
+              "ToolTip": "C:\\Project\\SampleProj\\Zywave\\IncidentManagementSystemAPI\\IncidentManagementSystemAPI\\Dto\\IncidentWithFilesDto.cs",
+              "RelativeToolTip": "IncidentManagementSystemAPI\\Dto\\IncidentWithFilesDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-24T17:42:06.538Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "IncidentCreateDto.cs",
+              "DocumentMoniker": "C:\\Project\\SampleProj\\Zywave\\IncidentManagementSystemAPI\\IncidentManagementSystemAPI\\Dto\\IncidentCreateDto.cs",
+              "RelativeDocumentMoniker": "IncidentManagementSystemAPI\\Dto\\IncidentCreateDto.cs",
+              "ToolTip": "C:\\Project\\SampleProj\\Zywave\\IncidentManagementSystemAPI\\IncidentManagementSystemAPI\\Dto\\IncidentCreateDto.cs",
+              "RelativeToolTip": "IncidentManagementSystemAPI\\Dto\\IncidentCreateDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-24T17:42:05.411Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IncidentService.cs",
+              "DocumentMoniker": "C:\\Project\\SampleProj\\Zywave\\IncidentManagementSystemAPI\\IncidentManagementSystemAPI\\Services\\IncidentService.cs",
+              "RelativeDocumentMoniker": "IncidentManagementSystemAPI\\Services\\IncidentService.cs",
+              "ToolTip": "C:\\Project\\SampleProj\\Zywave\\IncidentManagementSystemAPI\\IncidentManagementSystemAPI\\Services\\IncidentService.cs",
+              "RelativeToolTip": "IncidentManagementSystemAPI\\Services\\IncidentService.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAADgvy0AAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-24T17:41:10.787Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "FileService.cs",
+              "DocumentMoniker": "C:\\Project\\SampleProj\\Zywave\\IncidentManagementSystemAPI\\IncidentManagementSystemAPI\\Services\\FileService.cs",
+              "RelativeDocumentMoniker": "IncidentManagementSystemAPI\\Services\\FileService.cs",
+              "ToolTip": "C:\\Project\\SampleProj\\Zywave\\IncidentManagementSystemAPI\\IncidentManagementSystemAPI\\Services\\FileService.cs",
+              "RelativeToolTip": "IncidentManagementSystemAPI\\Services\\FileService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-24T17:41:08.163Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Project\\SampleProj\\Zywave\\IncidentManagementSystemAPI\\IncidentManagementSystemAPI\\Program.cs",
+              "RelativeDocumentMoniker": "IncidentManagementSystemAPI\\Program.cs",
+              "ToolTip": "C:\\Project\\SampleProj\\Zywave\\IncidentManagementSystemAPI\\IncidentManagementSystemAPI\\Program.cs",
+              "RelativeToolTip": "IncidentManagementSystemAPI\\Program.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAASwBkAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-24T17:28:43.719Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
